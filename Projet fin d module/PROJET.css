@@ -1,0 +1,710 @@
+body{
+    margin: 0;
+    height: 100%;
+    background-color: #eee;
+}
+.i1{
+    width: 160px;
+    height: 160px;
+    margin-left: -9px;
+    margin-top: -18px;
+}
+header{
+    background-color: rgb(98, 177, 197);
+    position: fixed;
+    z-index: 100;
+    margin-top: -2px; 
+    box-shadow: 2px 0px 20px 1px rgb(98, 177, 197);
+}
+.i{
+    border: solid rgb(98, 177, 197) 5px;
+    background-color: rgb(98, 177, 197);
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 15px; 
+}
+.nb{
+    
+    display: inline-flex;
+    list-style: none;
+    border: solid  rgb(98, 177, 197)  5px;
+    width: 100%;
+}
+.nb li a{
+   
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border: solid  rgb(98, 177, 197)  5px;
+    border-radius: 20%;
+    margin-left: -20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.nb li a:hover{ 
+    background-color: rgb(100, 194, 218);
+    color: rgb(46, 110, 126);
+}
+.x{
+    margin-top: -90px;
+    margin-left: 230px;
+    width: 1200px;
+}
+.r{
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 1000px ;
+    border: solid  rgb(79, 161, 182) 3px;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+}
+.intro{
+    width: 100%;
+    height: 500px;
+    border: solid rgb(29, 137, 145) 2px;
+    background-color: rgb(29, 137, 145);
+   
+
+}
+.titre{
+    margin-top: 200px;
+    margin-left: 10px;
+    color: white;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.paragraphe{
+    margin-left: 10px;
+    margin-top: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.boton{
+    margin-left: 190px;
+    margin-top: 15px;
+    color: rgb(5, 78, 75);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    border: solid rgb(101, 173, 214) 2px;
+    background-color: rgb(218, 239, 245);
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+}
+.p2{
+   
+    margin-left: 245px;
+    margin-top: 2px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.p2 a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.img2{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border: solid rgb(29, 137, 145) 2px;
+    border-radius: 180px;
+    left: 900px;
+    top: 135px;
+
+}
+.i22{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: solid rgb(29, 137, 145) 0px;
+    border-radius: 150px;
+    left: 750px;
+    top: 170px;
+}
+.connection{
+    border: solid rgb(29, 137, 145) 2px;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 160px;
+    padding-top: 200px;
+    width: 500px;
+    height: 300px;
+
+}
+.c1{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    border: solid rgb(29, 137, 145) 5px;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.c2{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    border: solid rgb(29, 137, 145) 5px;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.c3{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    border: solid rgb(13 80 96) 5px;
+    border-radius: 10px;
+    background-color:rgb(13 80 96) ;
+    color: white;
+    margin-top: 105px;
+    margin-left: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.c4{
+    position: absolute;
+    color: rgb(13 80 96);
+    margin-top: 145px;
+    margin-left: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.c0{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: -200px;
+    margin-left: -19px;
+    border: solid transparent 1px;
+    border-radius: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.c5{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -140px;
+    color:rgb(13 80 96) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.clic{
+    text-decoration: none;
+    font-weight: 700;
+    color:rgb(29, 137, 145)
+
+    
+}
+.p1{
+    position: relative;
+    border: solid white 2px;
+    border-radius: 30px;
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    margin-left: 210px;
+    margin-top: -5px;
+    
+}
+.p1 a{
+    position: absolute;
+    text-decoration: none;
+    font-weight: 700;
+    color:rgb(29, 137, 145) ;
+    margin-left: 20px;
+    margin-top: 10px;
+
+    
+}
+
+.BACK{
+    position: absolute;
+    margin-top: -340px;
+    margin-left: -400px;
+    width: 120px;
+    height: 50px;
+    background-color: rgb(29, 137, 145);
+    color: white;
+    border: solid rgb(29, 137, 145) 2px;
+    border-radius: 30px;
+}
+
+.cc input{
+    display: block;   
+}
+.cc{
+    border: solid rgb(29, 137, 145) 2px;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 160px;
+    padding-top: 200px;
+    width: 700px;
+    height: 500px;
+
+}
+.cc1{
+    margin-left: 420px;
+    width: 250px;
+    height:35px;
+    border: solid rgb(29, 137, 145) 3px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cc2{
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color:rgb(29, 137, 145) ;
+
+}
+.cc32{
+    margin-top: -25px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.cc42{
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.cc3{
+    position: absolute;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -30px;
+    color: rgb(8, 81, 87);
+
+}
+.cc4{
+    position: absolute;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -2px;
+    color: rgb(8, 81, 87) ;
+
+}
+.cadre{
+    color:rgb(29, 137, 145) ;
+    border: solid rgb(29, 137, 145) 3px;
+    border-radius: 20px;
+    width: 230px;
+    margin-left: 420px;
+
+}
+.IMG{
+    position: relative;
+    width: 400px;
+    height: 720px;
+    margin-top: -581px;
+    margin-left: -20px;
+    border: solid rgb(29, 137, 145) transparent;
+    border-radius: 7px;
+    z-index: -10px;
+}
+.tr{
+    position: relative;
+    border: solid rgb(29, 137, 145) 10px;
+    width: 0px;
+    height:703px ;
+    margin-top:-725px;
+    z-index: 10px;
+    margin-left: 370px;
+}
+.cc5{
+    position: absolute;
+    margin-left:65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 60px;
+    padding: 10px;
+    border: solid rgb(29, 137, 145) 2px;
+    border-radius: 20px;
+    background-color: rgb(29, 137, 145);
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inscription{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(29, 137, 145);
+    margin-top: 230px;
+    margin-left: 745px;
+}
+.im1{
+    width: 90px;
+    height: 90px;
+    border: solid transparent 10px;
+    border-radius: 50px;
+    margin-left: 170px;
+    margin-top: 35px;
+    transition-duration: 0.5s;
+    
+}
+.im1:hover{
+    transform: scale(1.1,1.1);
+
+    
+}
+.box{
+    width: 100%;
+    height: 190px;
+    margin-top: 480px;
+}
+.title{
+    margin-left: 390px;
+    margin-top: 120px;
+    font-size: 41px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(29, 137, 145) ;
+    text-shadow: 1px 2px 1px rgb(0, 81, 87);
+}
+.soustitre{
+    margin-left: 530px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 81, 87);
+}
+.lunette{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.d1 p{ 
+    margin-left: 10px;
+    color:  rgb(0, 49, 53);
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.d2 p{
+    margin-left: 10px;
+    color:  rgb(0, 49, 53);
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.d3 p{
+    margin-left: 10px;
+    color:  rgb(0, 49, 53);
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.d1{
+    width: 400px;
+    height: 250px;
+    border: solid white 2px;
+    background-color: white;
+    position: absolute;
+    margin-top: 80px;
+}
+.d2{
+    width: 400px;
+    height: 250px;
+    border: solid white 2px;
+    background-color: white;
+    position: absolute;
+    margin-left: 475px;
+    margin-top: 80px;
+}
+.d3{
+    width: 400px;
+    height: 250px;
+    border: solid white 2px;
+    background-color: white;
+    position: absolute;
+    margin-left: 954px;
+    margin-top: 80px;
+}
+.d1 h2{
+    margin-left: 150px;
+    margin-top: 30px;
+    color:  rgb(0, 81, 87);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.d2 h2{
+    margin-left: 70px;
+    margin-top: 30px;
+    color:  rgb(0, 81, 87);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.d3 h2{
+    margin-left: 60px;
+    margin-top: 30px;
+    color:  rgb(0, 81, 87);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.d1 img{
+    margin-left: 150px;
+    margin-top: -50px;
+}
+   
+.d2 img{
+    margin-left: 150px;
+    margin-top: -50px;
+}
+.d3 img{
+    margin-left: 150px;
+    margin-top: -50px;
+   
+}
+.maps{
+    width: 100%;
+    margin-top: 45px;
+    
+   
+}
+.invi{
+    width: 100%;
+    margin-top: 80px;
+    color: rgb(35, 153, 161);
+    margin-left: 435px;
+    text-shadow: 1px 1px 1px rgb(0, 45, 48);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wahed{
+    display: inline;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border: solid white 3px;
+    background-color: white;  
+}
+.jouj{
+    display: inline;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border: solid white 3px; 
+    margin-left: 500px;   
+    background-color: white;  
+}
+.tlata{
+    width: 300px;
+    height: 200px;
+    border: solid white 3px;
+    display: inline;
+    position: absolute;
+    margin-left: 1000px;  
+    background-color: white; 
+}
+footer{
+    background-color: white;
+    margin-top: 200px;
+    width: 99%;
+    height: 300px;
+}
+.wahed h3{
+    margin-left: 90px;
+    margin-top: -40px;
+    color:#2198f4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.jouj h3{
+    margin-left: 90px;
+    color:#2198f4;
+    margin-top: -40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ 
+}
+.tlata h3{
+    margin-left: 90px;
+    color:#2198f4;
+    margin-top: -40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.wahed p{
+    margin-left: 10px;
+    color:#074574;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+.jouj p{
+    margin-left: 10px;
+    margin-top: 40px;
+    color:#074574;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tlata p{
+    color:#074574;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ap{
+    background-image: url(this.jpg);
+    background-size: cover;
+    border: solid transparent 2px;
+    width: 100%;
+    height: 30%;
+
+}
+.w{
+    margin-top: 270px;
+    margin-left: 550px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 81, 87);
+}
+.w1{
+    margin-top: 70px;
+    margin-left: 50px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 45, 48);
+    text-shadow: 1px 1px 1px rgb(238, 238, 238);
+}
+.w2{
+    margin-left: 500px;
+    margin-top: 30px;
+    border: solid transparent 1px;
+    border-radius: 60px;
+    width: 50px;
+    height: 50px;
+}
+.w3{
+    margin-left: 580px;
+    margin-top: -40px;
+    color: rgb(0, 81, 87);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.w4{
+    margin-left: 580px;
+    margin-top: -10px;
+    color: rgb(0, 49, 53);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hc{
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    
+}
+.box2{
+    position: absolute;
+    margin-top: 350px;
+    
+}
+.b5{
+    width: 100%;
+    height: 100%;
+    
+}
+.gmail{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 880px;
+    margin-top: 40px;
+    
+}
+.g1{
+    color: rgb(0, 45, 48);
+    position: absolute;
+    margin-left:960px ;
+    margin-top: 49px;
+    
+}
+.g2{
+    color: rgb(0, 45, 48);
+    position: absolute;
+    margin-left:990px ;
+    margin-top: 59px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.telfixe{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 880px;
+    margin-top: -65px;
+    
+}
+.t1{
+    position: absolute;
+    margin-left:960px ;
+    margin-top: -55px;
+    color: rgb(0, 45, 48);
+    
+}
+.t2{
+    position: absolute;
+    margin-left:990px ;
+    margin-top: -45px;
+    color: rgb(0, 45, 48);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.contour{
+    margin-top: 170px;
+    border: solid white 1px; 
+    background-image: url(yellow.webp);
+    background-size: cover;
+    height: 30%;
+    width: 97.5%;
+    padding-top: 140px;
+    position: absolute;
+}
+.contournom{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(35, 153, 161);
+    margin-left: 500px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.h8{
+    margin-top: -202px;
+    
+}
+.fin{
+    border: solid rgb(22, 102, 109) 2px;
+    margin-top: 40px;
+    padding: 50px;
+    padding-top: 20px;
+    width: 700px;
+    height: 270px;
+    margin-left: 242px;  
+    background-color: white; 
+}
+.fin input{
+    border: solid rgb(0, 81, 87) 2px;
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 150px;
+    background-color: #eee;
+
+    
+}
+.fi{
+    color: rgb(22, 102, 109);
+    margin-top: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 380px;
+}
+textarea{
+    border: solid rgb(0, 81, 87) 2px;
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 150px;
+    background-color: #eee;   
+}
+.env{
+    
+    
+}
